@@ -1,0 +1,251 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equi="refresch" content="8; url=https://www.pexels.com/photo/photo-of-clouds-during-dawn-7070768/" > 
+
+    <title>form</title>
+
+    <style>
+
+   html{
+      
+background-image: url("https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?_gl=1*1h6fqjb*_ga*NDQ5NDA2NjguMTc0ODM3MTk2OQ..*_ga_8JE65Q40S6*czE3NTQxODE3ODEkbzQkZzEkdDE3NTQxODI4OTEkajU4JGwwJGgw");  /*Photo by eberhard grossgasteiger: https://www.pexels.com/photo/down-angle-photography-of-red-clouds-and-blue-sky-844297/*/    
+background-repeat:no-repeat;
+ 
+background-attachment:fixed;
+label{
+
+font-size:200%;
+color:white;
+}
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<h1 style="text-align:center; font-size:700%;color:white;background-color:rgb(166,136,206,.5);margin:1%;">
+Informtion Check
+</h1>
+
+
+<header style= "display:flex; background-color:rgb(166,136,206,.5); padding:20px;margin:1%;text-color:white;" >
+<nav style="margin:15px;">
+<a href="#myform" style="color:rgba(237,222,237,.6);">Form</a> 
+</nav>
+<nav style="margin:15px;">
+<a href="#lists" style="color:rgba(237,222,237,.6); ">List</a>   
+</nav>
+<nav style="margin:15px;">
+<a href="#table" style="color:rgba(237,222,237,.6);">Table</a> 
+</nav>
+<nav style="margin:15px;">
+<a href="#quote" style="color:rgba(237,222,237,.6);">Quote</a> 
+</nav>
+<nav style="margin:15px;">
+</nav>
+<nav style="margin:15px;">
+<a href="#rate" style="color:rgba(237,222,237,.6);">Rate Us</a> 
+</nav>
+<nav style="margin:15px;">
+<a href="https://www.pexels.com/photo/photo-of-clouds-during-dawn-7070768/" style="color:rgba(237,222,237,.6);"> Image source</a>
+</nav>
+
+</header>
+
+<div style="display:flex; justify-content:center;">
+<div style="width:50%; background-color:rgb(166,154,183,.5);">
+
+<form id="myform" style=" text-align:center;">
+
+<label for="name"  style="margin:15px; ">Username</label> </Br>
+<input type="text" id="name" name= "name" class="formitem" placeholder="Enter Your Name"  style="margin:15px; border:1px solid rgba(237,222,237,.6); background-color:rgba(233,211,226,.6);" required> </Br>
+
+
+
+<label for="major" style="margin:10px; " >Major</label> </Br>
+<input type="text" id="major" placeholder="Enter Your Major" required style="margin:15px;border:1px solid rgba(237,222,237,.6);  background-color:rgba(237,222,237,.6);"> </Br>
+
+<label for="hoppies" style="margin:15px;">What are Your Hoppies?</label> </Br>
+<Select id="hobbies" placeholder="hobby"style="margin:15px;border:1px solid rgba(237,222,237,.6); background-color:rgba(237,222,237,.6); "> </Br>
+<option value="0" selected >Select an Option</option>
+<option value="1" >1</option>
+<option value="2"  >2</option>
+</select></br>
+
+<label for="email" style="margin:15px;">Email</label> </Br>
+<input type="email" id="email" class="formitem" placeholder="example@gmail.com" style="margin:15px;border:1px solid rgba(237,222,237,.6);  background-color:rgba(237,222,237,.6);" required> </Br>
+
+<label for="phonenumber" style="margin:15px;">Phone Number</label> </Br>
+<input type="tel" id="phonenumber" class="formitem" placeholder="010101010110" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" style="margin:15px;border:1px solid rgba(237,222,237,.6);  background-color:rgba(237,222,237,.6);" required> </Br>
+
+
+<label for="password" style="margin:10px;">Password</label> </Br>
+<input type="password" id="Password" name="password" class="formitem" placeholder="Enter Your Password" style="margin:15px;border:1px solid rgba(237,222,237,.6);  background-color:rgba(237,222,237,.6);" required> </Br>
+
+<label for="gender" style="margin:15px;">Gender</label> </Br>
+
+
+<input type="radio" id="gender" class="formitem" value="Male" name="gender" style="margin:7px; " required>
+<label for="male" style="margin:14px;font-size:100%;color:rgba(166,136,206,1);">male</label> </br>
+
+<input type="radio" id="gender" class="formitem" value="Female" name="gender" style="margin:7px;" required> 
+<label for="female" style="margin:7px;font-size:100%;color:rgba(166,136,206,1);">female</label> </br>
+
+<label for="hobby" style="margin:15px;">Hobbies</label> </Br>
+<input type="checkbox" id="read" class="formitem" value="Reading" name="hobby" style="margin:7px; " required>
+<label for="male" style="margin:13px;font-size:100%;color:rgba(166,136,206,1);">Reading</label> </br>
+
+<input type="checkbox" id="hobby" class="formitem" value="Drawing" name="hobby" style="margin:7px;" required> 
+<label for="female" style="margin:11px;font-size:100%;color:rgba(166,136,206,1);">Drawing</label> </br>
+
+
+<label for="dob" style="margin:7px;">Enter Date of Birth</label> </br>
+<input type="date" id="dob" class="formitem" style="margin:15px;border:1px solid rgba(237,222,237,.6);  background-color:rgba(237,222,237,.6);" required> </br>
+
+<label for="id" style="margin:7px;">Insert Your ID</label> </br>
+<input type="file" id="id"  style="margin:15px;border:1px solid rgba(237,222,237,.6);  background-color:rgba(237,222,237,.6);" accept="pdf"  required> </br>
+
+<label for="color" style="margin:7px;">choose your favourite colour</label> </br>
+<input type="color" id="color" class="formitem" style="margin:15px;border:1px solid rgba(237,222,237,.6);  background-color:rgba(237,222,237,.6);" accept="pdf"  required> <br>
+
+<label for="messege" style="margin:7px;">We Value Your Opinion</label> </br>
+
+<textarea name="messege" style="margin:15px;border:1px solid rgba(237,222,237,.6);  background-color:rgba(237,222,237,.6);">Leave Your Feed Back Here!</textarea> <br>
+
+
+
+<button type="submit" style="margin:15px ;outline:1px yellow; border:1px solid rgba(237,222,237,.6); background-color:rgba(166,136,206,1);">Submit</button></br>
+
+
+</form>
+
+
+</div>
+</div>
+
+<hr>
+
+<div style="display:flex; align-items:center; gap:20px;" id="lists">
+<div style="width:50%; background-color:rgb(225,225,225,.6);margin:20px;padding:15px;">
+
+<label for="list" style="margin:15px; color:rgba(166,136,206,1);">Organized List</label>
+<ol id="list" style="margin:15px;border:1px solid rgba(237,222,237,1);background-color:rgba(237,222,237,.6);list-style-type:square; width:20% ">
+<li>coffe</li>
+<li>coffe</li>
+<li>coffe</li>
+</ol>
+<HR>
+<label for="list2" style="margin:15px; color:rgba(166,136,206,1);">Unorganized List</label>
+<ul id="list" style="margin:15px;border:1px solid rgba(237,222,237,1);background-color:rgba(237,222,237,.6); width:20% ">
+<li>coffe</li>
+<li>coffe</li>
+<li>coffe</li>
+</ul>
+</div>
+
+<img src="https://images.pexels.com/photos/7070768/pexels-photo-7070768.jpeg?_gl=1*que47k*_ga*NDQ5NDA2NjguMTc0ODM3MTk2OQ..*_ga_8JE65Q40S6*czE3NTQyNzM2NDQkbzYkZzEkdDE3NTQyNzQzOTUkajQ2JGwwJGgw"
+alt="beautiful clouds" title="clouds"
+style="height:20%; width:30%;"> <br> <!---Photo by Jonas Thomann: https://www.pexels.com/photo/photo-of-clouds-during-dawn-7070768/-->
+
+
+</div>
+
+
+<section style="width:50%; background-color:rgba(166,154,183,.5); margin:20px;padding:15px;" id="table">
+<table id="table"style="margin:15px ;outline:22px yellow; border:11px solid rgba(237,222,237,1); background-color:rgba(166,136,206,1);width:30%;">
+<Caption>Time Table</caption>
+<thead>
+
+</thead>
+<tr>
+<td>no1</td>
+<td>no2</td>
+<td>no3</td>
+
+</tr>
+<tbody>
+<tr>
+<td>no4</td>
+<td>no5</td>
+<td>no6</td>
+</tr>
+
+<tr>
+<td>no7</td>
+<td>no8</td>
+<td>no9</td>
+</tr>
+
+</tbody>
+
+</table>
+</section>
+
+
+<section style="width:50%; background-color:rgb(225,225,225,.6);margin:20px;padding:15px;" id="quote">
+<label for="quote" style="margin:15px; color:rgba(166,136,206,1);">Here is a Quote</label>
+<blockquote id="quote">
+
+To be or not to be, that is the <q>question</q>.
+</blockquote>
+<cite>
+Shakespeare
+</cite>
+</section>
+
+<section style="width:50%; background-color:rgb(166,154,183,.5);margin:20px;padding:15px;" id="rate">
+<label for="rate" style="margin:15px; color:rgba(166,136,206,1);">Rate <abbe title="Rate Ultra-Sound, just kidding! For real, Rate Us!">Us</abbr></label>
+<select name"rate">
+<option valve="i">★</option>
+<option valve="ii">★★</option>
+<option valve="iii">★★★</option>
+<option valve="iv">★★★★</option>
+<option valve="v">★★★★★</option>
+</select>
+</section>
+
+
+<Footer  style= " background-color:rgb(166,136,206,1); padding:20px;margin:1%;text-color:white;" >
+<section style="display:flex;">
+<nav style="margin:15px;">
+<a href="#myform" style="color:rgba(237,222,237,.6);">Form</a> 
+</nav>
+<nav style="margin:15px;">
+<a href="#lists" style="color:rgba(237,222,237,.6); ">List</a>   
+</nav>
+<nav style="margin:15px;">
+<a href="#table" style="color:rgba(237,222,237,.6);">Table</a> 
+</nav>
+<nav style="margin:15px;">
+<a href="#quote" style="color:rgba(237,222,237,.6);">Quote</a> 
+</nav>
+<nav style="margin:15px;">
+</nav>
+<nav style="margin:15px;">
+<a href="#rate" style="color:rgba(237,222,237,.6);">Rate Us</a> 
+</nav>
+<nav style="margin:15px;">
+<a href="https://www.pexels.com/photo/photo-of-clouds-during-dawn-7070768/" style="color:rgba(237,222,237,.6);"> Image source</a>
+</nav>
+</section>
+<address>
++1234567 </br>
+312st.ny, Egypt
+</address>
+
+ 
+</footer>
+
+
+
+
+</body>
+
+</html>
